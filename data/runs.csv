@@ -1,0 +1,5 @@
+run_uuid,category_uuid,run_name,run_date,run_time,station_start,station_end,has_route
+caf5f055-4ded-4ce4-8baa-6913bb0c843d,bcb0e2eb-08ef-46eb-a852-b2e020f59ab1,Lain Kaplan & Catty Lee,2010-01-10,7:15:00,Riverside,Alewife,True
+bee0dae8-63c4-4861-84e9-e8af2fa6144b,bcb0e2eb-08ef-46eb-a852-b2e020f59ab1,MIT Students,2013-06-22,12:00:00,,,False
+77a290e6-2eea-45e6-a169-495699776610,bcb0e2eb-08ef-46eb-a852-b2e020f59ab1,majadirks,2013-08-22,11:48:00,,,False
+588c0820-6739-40b8-a794-17091eea9bc6,bcb0e2eb-08ef-46eb-a852-b2e020f59ab1,Adham Fisher & Miles Taylor,2013-11-25,8:05:16,Alewife,Mattapan,True

@@ -1,0 +1,86 @@
+{
+    "caf5f055-4ded-4ce4-8baa-6913bb0c843d": {
+        "run_uuid": "caf5f055-4ded-4ce4-8baa-6913bb0c843d",
+        "category_uuid": "bcb0e2eb-08ef-46eb-a852-b2e020f59ab1",
+        "run_name": "Lain Kaplan & Catty Lee",
+        "run_date": "2010-01-10",
+        "run_time": "7:15:00",
+        "station_start": "Riverside",
+        "station_end": "Alewife",
+        "has_route": "True",
+        "runners": [
+            {
+                "runner_uuid": "760e2f7e-a8fa-4bec-92a2-1f601d96575d",
+                "runner_name": "Lain Kaplan"
+            },
+            {
+                "runner_uuid": "3b642716-5622-4ac4-9111-3561619f1a8e",
+                "runner_name": "Catty Lee"
+            }
+        ]
+    },
+    "bee0dae8-63c4-4861-84e9-e8af2fa6144b": {
+        "run_uuid": "bee0dae8-63c4-4861-84e9-e8af2fa6144b",
+        "category_uuid": "bcb0e2eb-08ef-46eb-a852-b2e020f59ab1",
+        "run_name": "MIT Students",
+        "run_date": "2013-06-22",
+        "run_time": "12:00:00",
+        "station_start": "",
+        "station_end": "",
+        "has_route": "False",
+        "runners": [
+            {
+                "runner_uuid": "27527758-0074-4672-a0f6-7703e8ce8e50",
+                "runner_name": "Raphael Dumas"
+            },
+            {
+                "runner_uuid": "41154dbd-51b0-428c-8d13-a39291106d5d",
+                "runner_name": "William Chow"
+            },
+            {
+                "runner_uuid": "689bf1f0-4bae-4dda-ac2e-163b74b32039",
+                "runner_name": "Katie Pincus"
+            },
+            {
+                "runner_uuid": "b72eecca-aaee-4c54-97f5-c967cec48ac3",
+                "runner_name": "Michael Gordon"
+            }
+        ]
+    },
+    "77a290e6-2eea-45e6-a169-495699776610": {
+        "run_uuid": "77a290e6-2eea-45e6-a169-495699776610",
+        "category_uuid": "bcb0e2eb-08ef-46eb-a852-b2e020f59ab1",
+        "run_name": "majadirks",
+        "run_date": "2013-08-22",
+        "run_time": "11:48:00",
+        "station_start": "",
+        "station_end": "",
+        "has_route": "False",
+        "runners": [
+            {
+                "runner_uuid": "8d0359f9-bc3d-4941-9143-7df57f613ed0",
+                "runner_name": "majadirks"
+            }
+        ]
+    },
+    "588c0820-6739-40b8-a794-17091eea9bc6": {
+        "run_uuid": "588c0820-6739-40b8-a794-17091eea9bc6",
+        "category_uuid": "bcb0e2eb-08ef-46eb-a852-b2e020f59ab1",
+        "run_name": "Adham Fisher & Miles Taylor",
+        "run_date": "2013-11-25",
+        "run_time": "8:05:16",
+        "station_start": "Alewife",
+        "station_end": "Mattapan",
+        "has_route": "True",
+        "runners": [
+            {
+                "runner_uuid": "803d5507-0174-4528-897a-51b444592621",
+                "runner_name": "Adham Fisher"
+            },
+            {
+                "runner_uuid": "3b95dabb-ca02-4fe3-bd21-a8f2afc996b9",
+                "runner_name": "Miles Taylor"
+            }
+        ]
+    }
+}

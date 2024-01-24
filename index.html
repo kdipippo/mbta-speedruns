@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>MBTA Speedruns</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/starter-template/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <meta name="theme-color" content="#000000">
+</head>
+<body>
+
+<header class="container">
+    <div class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img src="assets/img/favicons/favicon-32x32.png">
+            <span class="fs-4">MBTA Speedruns</span>
+        </a>
+
+        <ul class="nav nav-pills align-items-center">
+            <li class="nav-item"><a href="#" class="nav-link"><button type="button" class="btn btn-primary">+ Submit Run</button></a></li>
+            <li class="nav-item"><a href="https://github.com/kdipippo/mbta-speedruns" class="nav-link"><i class="bi bi-github"></i> View on GitHub</a></li>
+        </ul>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <h1 class="text-body-emphasis">Get started with Bootstrap</h1>
+        <p class="fs-5 col-md-8">Quickly and easily get started with Bootstrap's compiled, production-ready files with this barebones example featuring some basic HTML and helpful links. Download all our examples to get started.</p>
+
+
+        <div>
+            <button type="button" class="btn btn-primary">Subway 100% Without GLX</button></a>
+            <button type="button" class="btn btn-primary">+ Submit Run</button></a>
+        </div>
+        
+        <hr class="col-3 col-md-2 mb-5">
+
+        <div class="row g-5">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Player</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Example Name</td>
+                        <td>8h 17m 16s</td>
+                        <td>
+                            <span data-toggle="tooltip" data-placement="top" title="2023-01-10">17 days ago</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Example Name 2</td>
+                        <td>9h 12m 14s</td>
+                        <td>
+                            <span data-toggle="tooltip" data-placement="top" title="2022-01-10">1 month ago</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+
+    fetch('https://kdipippo.github.io/mbta-speedruns/api/v1/runs.json')
+        .then((response) => response.json())
+        .then((json) => console.log(json));
+})
+</script>
+</body>
+</html>
